@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&display=swap');
+
+.fontStyle{
+    font-family: 'Roboto Slab', serif;
+}
+.Image1 {
+  transform: translatey(0px);
+  animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+
+.arrow {
+  transform: translatey(0px);
+  animation: floatOne 0.8s ease-in;
+}
+@keyframes floatOne {
+  0% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
+}
+@media screen and (min-width: 700px) {
+  .Image {
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+  }
+}

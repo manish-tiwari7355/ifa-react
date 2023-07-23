@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400&display=swap');
+
+.fontStyle{
+    font-family: 'Roboto Slab', serif;
+}
+.input1:focus { 
+    outline: none !important;
+   
+}
+.textarea1:focus { 
+    outline: none !important;
+  
+}
